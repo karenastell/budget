@@ -120,4 +120,10 @@ const FILES_TO_CACHE = [
       })
     );
   });
-  
+
+
+  self.addEventListener('sync', function(event) {
+  if (event.tag == 'budgetTransaction') {
+    event.waitUntil(doSomeStuff());
+  }
+});
