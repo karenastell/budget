@@ -55,7 +55,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="index.js"></script>
-    <script src="db.js"></script>
+
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -63,10 +63,10 @@
             console.log('We found your service worker file!', reg);
           });
         });
-      } else {
-        navigator.serviceWorker.ready.then((swRegistration) => {
-          return swRegistration.sync.register('budgetTransaction');
-        });
+      // } else {
+      //   navigator.serviceWorker.ready.then((swRegistration) => {
+      //     return swRegistration.sync.register('budgetTransaction');
+      //   });
       }
     </script>
   </body>
