@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const dbURL = 'mongodb://localhost/workout';
+const dbURL = 'mongodb://localhost/budget';
 
 mongoose.connect(process.env.MONGODB_URI || dbURL, {
   useNewUrlParser: true,
