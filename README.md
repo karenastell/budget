@@ -10,6 +10,6 @@ This app utilizes a service-worker and manifest as well as indexedDB.
 
 ## Where To Find This App
 
-[GitHub Repository](https://github.com/karenastell/budget)
+* [GitHub Repository](https://github.com/karenastell/budget)
 
-[Heroku](https://serene-anchorage-25364.herokuapp.com/)
+* [Heroku](https://serene-anchorage-25364.herokuapp.com/)
