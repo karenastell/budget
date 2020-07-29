@@ -152,6 +152,9 @@ document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
 
+
+// from miniproject from week 17
+
 let db;
 // create a new db request for a "budget" database.
 const request = indexedDB.open("budget", 1);
